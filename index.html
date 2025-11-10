@@ -1,9 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Hello GitHub Actions</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Furniture Shop</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Hello, GitHub Actions !</h1>
+    <header>
+        <div class="container">
+            <div class="logo">FurniMod</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#products">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="cart-icon">🛒</div>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="https://rnb.scene7.com/is/image/roomandboard/metro_505736_25e?size=2400,2400&scl=1" alt="Modern Living Room">
+        <div class="hero-text">
+            <h1>Discover Modern Furniture</h1>
+            <p>Elevate your space with stylish and comfortable designs</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/71D6owxJRUL._AC_UF894,1000_QL80_.jpg" alt="Sectional Sofa Set">
+                    <h3>Sectional Sofa Set</h3>
+                    <p>$1,299</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://www.jenniferfurniture.com/cdn/shop/files/Gio_Italia_Talento_3-Seater_Long_Tufted_Gray_Fabric_Sofa_with_Track_Arms_2.jpg?v=1734362018&width=1080" alt="Gray Fabric Sofa">
+                    <h3>Gray Fabric Sofa</h3>
+                    <p>$899</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="http://media.furniturerow.com/image/upload/f_auto,q_auto/v1731945022/featured.jpg" alt="Contemporary Loveseat">
+                    <h3>Contemporary Loveseat</h3>
+                    <p>$649</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://www.woodleys.com/blog/wp-content/uploads/sites/105/2022/02/8-Living-Room-Furniture-Ideas-for-Your-New-Home.jpg" alt="Living Room Chair">
+                    <h3>Living Room Chair</h3>
+                    <p>$399</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://cdn.mos.cms.futurecdn.net/eryFz6PGSsSZCaz7TYhYbQ.jpg" alt="Coffee Table">
+                    <h3>Coffee Table</h3>
+                    <p>$249</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://swyfthome.com/cdn/shop/articles/Swyft_Home_07207712edit.jpg?v=1727881136&width=1100" alt="Mid-Century Sofa">
+                    <h3>Mid-Century Sofa</h3>
+                    <p>$999</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="http://whataroom.com/cdn/shop/articles/img-1698013775363_85594ed2-dade-401f-abb6-66cf434e98b6.png?v=1699809797" alt="Bohemian Armchair">
+                    <h3>Bohemian Armchair</h3>
+                    <p>$349</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="http://valyouhawaii.com/cdn/shop/articles/Innovative_Modern_Furniture_Designs_That_Will_Elevate_Your_Living_Space.jpg?v=1747078783&width=2048" alt="Leather Sectional">
+                    <h3>Leather Sectional</h3>
+                    <p>$1,499</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>FurniMod is dedicated to providing high-quality, modern furniture that transforms your home into a stylish haven. Our designs blend functionality with aesthetics to suit every taste.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 FurniMod. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
