@@ -1,6 +1,6 @@
 name: Deploy to GitHub Pages
 
-# Only run when index.html changes (roadmap.sh requirement)
+# Only run when index.html changes 
 on:
   push:
     branches: [ main ]
