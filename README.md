@@ -1,6 +1,5 @@
 # gh-actions-workflow-static-website
 A simple GitHub Pages deployment workflow example
-# gh-deployment-workflow
 
 **Link to deployed site on GitHub Pages:** [https://l1nzey.github.io/gh-actions-workflow-static-website/](https://l1nzey.github.io/gh-actions-workflow-static-website/)
 
